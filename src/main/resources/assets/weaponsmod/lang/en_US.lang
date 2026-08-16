@@ -1,0 +1,11 @@
+# Weapons Mod
+item.svd_rifle.name=SVD Sniper Rifle
+item.awp_rifle.name=AWP Sniper Rifle
+item.barrett_rifle.name=Barrett M82 Rifle
+
+item.butterfly_knife.name=Butterfly Knife
+item.karambit_knife.name=Karambit Knife
+item.m9_knife.name=M9 Bayonet
+
+item.rifle_ammo.name=Rifle Ammunition
+item.pistol_ammo.name=Pistol Ammunition

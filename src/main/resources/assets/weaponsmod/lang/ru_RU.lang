@@ -1,0 +1,11 @@
+# Weapons Mod - Russian
+item.svd_rifle.name=Снайперская винтовка СВД
+item.awp_rifle.name=Снайперская винтовка AWP
+item.barrett_rifle.name=Снайперская винтовка Barrett M82
+
+item.butterfly_knife.name=Нож-бабочка
+item.karambit_knife.name=Керамбит
+item.m9_knife.name=Штык М9
+
+item.rifle_ammo.name=Винтовочный патрон
+item.pistol_ammo.name=Пистолетный патрон

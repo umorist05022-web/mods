@@ -1,0 +1,30 @@
+[
+  {
+    "modid": "lanworld",
+    "name": "LAN World Plug-n-Play",
+    "description": "Легко делитесь вашим миром Minecraft по сети без Realms. Откройте свой мир для друзей в одной сети.",
+    "version": "1.0.0",
+    "mcversion": "1.12.2",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["umorist"],
+    "credits": "Minecraft Forge and FML",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  },
+  {
+    "modid": "weaponsmod",
+    "name": "Weapons Mod",
+    "description": "Продвинутое оружие: снайперские винтовки, кастомные ножи (бабочка, керамбит, М9) и многое другое",
+    "version": "1.0.0",
+    "mcversion": "1.12.2",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["umorist"],
+    "credits": "Minecraft Forge and FML",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
