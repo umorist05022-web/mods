@@ -1,0 +1,32 @@
+name: Build and Release Mods
+
+on:
+  push:
+    branches:
+      - main
+      - dev-lan-weapons-mods
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-java@v3
+        with:
+          java-version: '8'
+          distribution: 'adopt'
+      - run: chmod +x gradlew
+      - run: ./gradlew build
+      - uses: actions/upload-artifact@v3
+        with:
+          name: mods-build
+          path: build/libs/
+      - uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/v')
+        with:
+          files: build/libs/*.jar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
